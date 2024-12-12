@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+.nav-item:hover{
+    background-color: #43a047;
+}
+.borderLine{
+    height: 45px;
+    border: 1px solid white;
+}
+
+.banner-img{
+    margin-top: 100px;
+}
+.single-course-img{
+    width: 650px;
+    height: 400px;
+}
+.text-gradient {
+    font-family: 'Arial', sans-serif; /* Adjust based on the font in your image */
+    font-size: 2rem; /* Adjust as needed */
+    font-weight: bold; /* Optional */
+    background: linear-gradient(to right, #B8004E, #503B91, #1B84CE); /* Replace with exact colors from your image */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center; /* Optional for alignment */
+  }
+  
+.accordion-bg{
+    background-color: #EFD4F9;
+}
+
+.accordion-bg:not(.collapsed){
+    background-color: #EFD4F9;
+}
+.single-course-border:hover{
+    border-top: 2px solid rgb(66, 3, 66);
+    border-right: 2px solid rgb(66, 3, 66);
+    border-bottom: 2px solid rgb(66, 3, 66);
+    border-left: 2px solid rgb(66, 3, 66);
+    border-radius: 0px 0px 0px 0px;
+}
+
+/* footer section css here */
+.image img{
+    width: 420px;
+    height: 160px;
+    border: 6px solid white;
+    border-radius: 10px;
+}
+.line{
+    width: 500px;
+    height: 1px;
+    background-color: black;
+}
+
+header{
+    z-index: 1;
+}
+.Zindex{
+    z-index: 0;
+}
+.left-area{
+    height: 450px;
+}
+.btn-area{
+    margin-top: 100px;
+}
+.border-left{
+    border-right: 2px solid black;
+    height: 420px; 
+    margin-top: 20px; 
+}
+.right-area{
+    height: 450px;
+}
+.map-area{
+    width: 830px;
+    height: 400px;
+}
+.phone-icon, .message-icon, .facebook-icon {
+    font-size: 36px;
+}
+.phone-icon, .message-icon{
+    color: orangered;
+}
+
+
+
+/* mobile device  */
+@media screen and (max-width:576px) {
+   .banner-img{
+    margin-top: 50px;
+    width: 100%;
+   } 
+   .single-course-img{
+    width: 100%;
+    height: 300px;
+   }
+   .map-area{
+    width: 100%;
+    }
+   .left-area, .border-left{
+        height: 100px;
+   }
+   .btn-area{
+    margin-top: 10px;
+   }
+   .image img{
+    width: 70%;
+   }
+}
+
